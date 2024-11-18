@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3bb0595-7c42-4bee-89f4-56bf24b9aecc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/model/SensorData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/receiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/receiver/ReceiverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/receiver/ReceiverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/sender/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/sender/SenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/java/com/example/test01/sender/SenderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/resources/application-receiver.properties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/main/resources/application-sender.properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project02/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project02/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project02/JavaPublisherClient-tcpbrokerhivemqcom1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project02/src/main/java/org/example/MqttPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project02/src/main/java/org/example/MqttPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project02/src/main/java/org/example/MqttSubcriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project02/src/main/java/org/example/MqttSubcriber.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oq23E3uVk8y23osqd67QVATQuG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Receive.executor": "Run",
+    "Application.Sender.executor": "Run",
+    "Application.SpringbootRabbitmqApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Workspace/s2024-1/iotAndAppications/rabbitmq",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Receive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootrabbitmq.Receive" />
+      <module name="springboot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootrabbitmq.Sender" />
+      <module name="springboot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootrabbitmq.SpringbootRabbitmqApplication" />
+      <module name="springboot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Receive" />
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.SpringbootRabbitmqApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3bb0595-7c42-4bee-89f4-56bf24b9aecc" name="Changes" comment="" />
+      <created>1731582586326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731582586326</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot_rabbitmq$Receive.ic" NAME="Receive Coverage Results" MODIFIED="1731922644149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.springbootrabbitmq.*</FILTER>
+    </SUITE>
+  </component>
+</project>

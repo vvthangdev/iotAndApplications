@@ -1,10 +1,6 @@
 package org.example;
 
-import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
-import org.eclipse.paho.client.mqttv3.MqttCallback;
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.eclipse.paho.client.mqttv3.*;
 
 public class MqttSubcriber {
     public static void main(String[] args) {
@@ -35,8 +31,17 @@ public class MqttSubcriber {
             });
 
             // Kết nối và subscribe vào topic
-            client.connect();
-            client.subscribe(topic);
+            // Thiết lập tùy chọn kết nối
+            MqttConnectOptions options = new MqttConnectOptions();
+            options.setCleanSession(true); // Kết nối không giữ trạng thái trước đó
+
+            // Kết nối tới broker
+            System.out.println("Connecting to broker: " + brokerUrl);
+            client.connect(options);
+            System.out.println("Connected successfully!");
+
+            // Đăng ký topic
+            client.subscribe(topic, 1); // QoS: Đảm bảo nhận ít nhất một lần
             System.out.println("Subscribed to topic: " + topic);
 
             // Chờ dữ liệu (để chương trình chạy không bị thoát)
